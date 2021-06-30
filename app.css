@@ -98,6 +98,10 @@ body{
   top: 100px;
 }
 
+.container a:active{
+  background-color: transparent;
+  color: #fff;
+}
 
 .firstcont{
   border-radius: 7px 0px 0px 7px;
@@ -127,13 +131,14 @@ body{
   top: 105px;
 }
 
-@media(max-width:900px){
+@media(max-width:700px){
    .wholecont{
      flex-direction: column;
-     
-     /* position: relative;
-     bottom: 50px; */
    }
+
+   /* .container{
+     width: 400px;
+   } */
 
    .firstcont{
      border-radius: 7px 7px 0px 0px;
